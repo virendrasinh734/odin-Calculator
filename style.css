@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:1000px;
+    background-color: bisque;
+
+}
+
+.calcarea{
+    width: 700px;
+    background-color: lightgray;
+    height: 700px;
+    border: rebeccapurple solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+button{
+    width: 85px;
+    background-color: rgba(127, 255, 191, 0.897);
+    padding: 3%;
+    margin:1%;
+    border-radius: 45px;
+    border: black solid;
+}
+.upper button{
+    width: 175px;
+    margin:1%;
+}
+.screen{
+    align-self: center;
+    height: 60px;
+    /* border: red solid; */
+    width:400px;
+    margin:1%;
+    font-size: 40px;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.subscreen{
+    align-self: center;
+    height: 60px;
+    /* border: rgb(208, 255, 0) solid; */
+    width:400px;
+    margin:1%;
+    font-size: 40px;
+    background-color: ivory;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: -10px;
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
